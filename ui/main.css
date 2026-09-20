@@ -1,0 +1,268 @@
+/*
+! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:""}:host,html{-webkit-text-size-adjust:100%;font-feature-settings:normal;-webkit-tap-highlight-color:transparent;font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-variation-settings:normal;line-height:1.5;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-feature-settings:normal;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-size:1em;font-variation-settings:normal}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:initial}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{font-feature-settings:inherit;color:inherit;font-family:inherit;font-size:100%;font-variation-settings:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:initial;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:initial}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]{display:none}*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#3b82f680;--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:#3b82f680;--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }.static{position:static}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0}.mx-2{margin-left:.5rem;margin-right:.5rem}.mx-auto{margin-left:auto;margin-right:auto}.my-2{margin-bottom:.5rem;margin-top:.5rem}.my-5{margin-bottom:1.25rem;margin-top:1.25rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.ml-1{margin-left:.25rem}.ml-2{margin-left:.5rem}.mr-4{margin-right:1rem}.mt-2{margin-top:.5rem}.mt-3{margin-top:.75rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.mt-\[150px\]{margin-top:150px}.flex{display:flex}.hidden{display:none}.h-12{height:3rem}.h-16{height:4rem}.h-2{height:.5rem}.h-20{height:5rem}.h-4{height:1rem}.h-6{height:1.5rem}.h-\[530px\]{height:530px}.h-\[650px\]{height:650px}.max-h-0{max-height:0}.max-h-\[500px\]{max-height:500px}.min-h-screen{min-height:100vh}.w-11\/12{width:91.666667%}.w-12{width:3rem}.w-20{width:5rem}.w-4{width:1rem}.w-4\/12{width:33.333333%}.w-48{width:12rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-8\/12{width:66.666667%}.w-\[1100px\]{width:1100px}.w-full{width:100%}.flex-1{flex:1 1}.animate-none{animation:none}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite}@keyframes spin{to{transform:rotate(1turn)}}.animate-spin{animation:spin 1s linear infinite}.cursor-pointer{cursor:pointer}.flex-row{flex-direction:row}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.rounded{border-radius:.25rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.border{border-width:1px}.border-b-2{border-bottom-width:2px}.border-r-4{border-right-width:4px}.border-t-2{border-top-width:2px}.border-dashed{border-style:dashed}.border-purple-500{--tw-border-opacity:1;border-color:rgb(168 85 247/var(--tw-border-opacity))}.border-purple-600{--tw-border-opacity:1;border-color:rgb(147 51 234/var(--tw-border-opacity))}.border-purple-800{--tw-border-opacity:1;border-color:rgb(107 33 168/var(--tw-border-opacity))}.border-purple-950{--tw-border-opacity:1;border-color:rgb(59 7 100/var(--tw-border-opacity))}.bg-\[\#161618\]{--tw-bg-opacity:1;background-color:rgb(20 19 50/var(--tw-bg-opacity))}.bg-\[\#1b1b1e\]{--tw-bg-opacity:1;background-color:rgb(29 29 65/var(--tw-bg-opacity))}.bg-\[\#202024\]{--tw-bg-opacity:1;background-color:rgb(30 29 70/var(--tw-bg-opacity))}.bg-\[\#2b2b30\]{--tw-bg-opacity:1;background-color:rgb(42 42 74/var(--tw-bg-opacity))}.bg-\[\#3b3b40\]{--tw-bg-opacity:1;background-color:rgb(89 16 148/var(--tw-bg-opacity))}.bg-\[\#343438\]{background-color:#343438}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity))}.bg-blue-700{--tw-bg-opacity:1;background-color:rgb(29 78 216/var(--tw-bg-opacity))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235/var(--tw-bg-opacity))}.bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.bg-green-700{--tw-bg-opacity:1;background-color:rgb(21 128 61/var(--tw-bg-opacity))}.bg-orange-700{--tw-bg-opacity:1;background-color:rgb(194 65 12/var(--tw-bg-opacity))}.p-1{padding:.25rem}.p-2{padding:.5rem}.p-3{padding:.75rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.py-1{padding-bottom:.25rem;padding-top:.25rem}.py-1\.5{padding-bottom:.375rem;padding-top:.375rem}.py-3{padding-bottom:.75rem;padding-top:.75rem}.pb-4{padding-bottom:1rem}.text-center{text-align:center}.text-right{text-align:right}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250/var(--tw-text-opacity))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246/var(--tw-text-opacity))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity))}.text-orange-600{--tw-text-opacity:1;color:rgb(234 88 12/var(--tw-text-opacity))}.text-purple-500{--tw-text-opacity:1;color:rgb(168 85 247/var(--tw-text-opacity))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38/var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity))}.shadow-lg{--tw-shadow:0 10px 15px -3px #0000001a,0 4px 6px -4px #0000001a;--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-lg,.shadow-xl{box-shadow:0 0 #0000,0 0 #0000,var(--tw-shadow);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px #0000001a,0 8px 10px -6px #0000001a;--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color),0 8px 10px -6px var(--tw-shadow-color)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1)}.duration-150,.transition-all{transition-duration:.15s}.duration-200{transition-duration:.2s}@font-face{font-family:Vazirmatn;src:url(./Vazirmatn-Medium.bc7d8f11b2c39fd0a880.woff2) format("woff2");font-style:normal;font-weight:500;font-display:swap}*{margin:0;padding:0;-webkit-user-select:none;user-select:none}::-webkit-scrollbar{width:3px}::-webkit-scrollbar-track{background-color:#868686;border-radius:5px}::-webkit-scrollbar-thumb{background-color:#52525b;border:3px solid #52525b;border-radius:2px}::-webkit-scrollbar-thumb:hover{background-color:#52525b}body{color:#fff;font-family:Vazirmatn,Arial,sans-serif;font-weight:500}.hover\:scale-95:hover{--tw-scale-x:.95;--tw-scale-y:.95;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-\[\#4a4a50\]:hover{--tw-bg-opacity:1;background-color:rgb(62 62 106/var(--tw-bg-opacity))}.hover\:bg-\[\#252529\]:hover{--tw-bg-opacity:1;background-color:rgb(60 18 95/var(--tw-bg-opacity))}@media (prefers-color-scheme:dark){.dark\:bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity))}.dark\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity))}}
+/*# sourceMappingURL=main.9de63e28.css.map*/
+/* =========================================================
+   AR_Quest — Graphite Glass UI
+   ========================================================= */
+:root{
+  --ar-bg:#07090c;
+  --ar-panel:rgba(20,23,28,.78);
+  --ar-panel-2:rgba(28,32,38,.68);
+  --ar-border:rgba(255,255,255,.10);
+  --ar-border-strong:rgba(255,255,255,.16);
+  --ar-text:#f4f4f5;
+  --ar-muted:#a1a1aa;
+  --ar-accent:#d4d4d8;
+  --ar-accent-2:#71717a;
+}
+html,body,#root{min-height:100%;background:transparent!important}
+body{
+  color:var(--ar-text)!important;
+  background:
+    radial-gradient(circle at 50% 0%,rgba(255,255,255,.075),transparent 36%),
+    radial-gradient(circle at 100% 100%,rgba(82,82,91,.16),transparent 40%)!important;
+  font-family:Vazirmatn,Arial,sans-serif!important;
+}
+#root{
+  isolation:isolate;
+}
+#root > *{
+  scrollbar-color:#52525b transparent;
+}
+/* Glass surfaces */
+#root [class*="rounded-"]{
+  border-color:var(--ar-border)!important;
+}
+#root [class*="shadow-"]{
+  box-shadow:0 24px 70px rgba(0,0,0,.42),inset 0 1px 0 rgba(255,255,255,.035)!important;
+}
+#root [class*="bg-white"]{
+  background:rgba(244,244,245,.055)!important;
+}
+#root [class*="bg-gray-"]{
+  background:var(--ar-panel)!important;
+}
+#root [class*="bg-blue-"],
+#root [class*="bg-purple-"],
+#root [class*="bg-indigo-"],
+#root [class*="bg-violet-"]{
+  background:linear-gradient(135deg,rgba(82,82,91,.95),rgba(39,39,42,.95))!important;
+}
+#root [class*="border-blue-"],
+#root [class*="border-purple-"],
+#root [class*="border-indigo-"],
+#root [class*="border-violet-"]{
+  border-color:var(--ar-border-strong)!important;
+}
+#root [class*="text-blue-"],
+#root [class*="text-purple-"],
+#root [class*="text-indigo-"],
+#root [class*="text-violet-"]{
+  color:#e4e4e7!important;
+}
+#root button{
+  transition:transform .16s ease,filter .16s ease,background .16s ease,border-color .16s ease,box-shadow .16s ease!important;
+  border:1px solid rgba(255,255,255,.08)!important;
+}
+#root button:hover{
+  filter:brightness(1.14);
+  box-shadow:0 10px 30px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.08)!important;
+}
+#root input,#root textarea,#root select{
+  background:rgba(9,11,14,.62)!important;
+  border-color:var(--ar-border)!important;
+  color:var(--ar-text)!important;
+}
+#root ::-webkit-scrollbar{width:5px;height:5px}
+#root ::-webkit-scrollbar-track{background:transparent}
+#root ::-webkit-scrollbar-thumb{
+  background:linear-gradient(#71717a,#3f3f46);
+  border:0;
+  border-radius:999px;
+}
+
+/* =========================================================
+   AR_Quest v3.1 — MONOCHROME GLASS / PERFORMANCE LAYER
+   No purple, no neon. Animations use transform/opacity only.
+   ========================================================= */
+:root{
+  --ar-black:#070707;
+  --ar-black-2:#0b0b0c;
+  --ar-glass:rgba(18,18,20,.78);
+  --ar-glass-soft:rgba(255,255,255,.045);
+  --ar-glass-strong:rgba(255,255,255,.085);
+  --ar-line:rgba(255,255,255,.105);
+  --ar-line-strong:rgba(255,255,255,.18);
+  --ar-white:#f5f5f5;
+  --ar-silver:#d4d4d8;
+  --ar-muted:#96969e;
+}
+
+html,body,#root{background:transparent!important}
+body{
+  color:var(--ar-white)!important;
+  overflow:hidden;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* Replace every remaining purple/blue utility visually with neutral graphite. */
+#root [class*="bg-[#161618]"],
+#root [class*="bg-[#1b1b1e]"],
+#root [class*="bg-[#202024]"],
+#root [class*="bg-[#2b2b30"]],
+#root [class*="bg-[#3b3b40]"],
+#root [class*="bg-[#343438"]],
+#root [class*="bg-[#252529"]],
+#root [class*="bg-[#4a4a50"]]{
+  background:linear-gradient(145deg,var(--ar-glass),rgba(10,10,11,.74))!important;
+  border-color:var(--ar-line)!important;
+}
+#root [class*="border-purple-"],
+#root [class*="border-blue-"]{
+  border-color:var(--ar-line)!important;
+}
+#root [class*="text-purple-"],
+#root [class*="text-blue-"]{
+  color:var(--ar-silver)!important;
+}
+
+/* Main glass cards */
+#root [class*="rounded-lg"],
+#root [class*="rounded-md"]{
+  background-clip:padding-box;
+}
+#root [class*="rounded-lg"]:not(img),
+#root [class*="rounded-md"]:not(img){
+  box-shadow:0 18px 50px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.045)!important;
+}
+
+/* Subtle glass highlight, static and cheap to render. */
+#root [class*="rounded-lg"]::before,
+#root [class*="rounded-md"]::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  border-radius:inherit;
+  background:linear-gradient(120deg,rgba(255,255,255,.035),transparent 28%,transparent 72%,rgba(255,255,255,.018));
+  opacity:.8;
+}
+
+/* Buttons */
+#root button{
+  color:#f4f4f5!important;
+  background:linear-gradient(145deg,rgba(55,55,58,.96),rgba(27,27,29,.96))!important;
+  border-color:rgba(255,255,255,.12)!important;
+  will-change:transform;
+  transform:translateZ(0);
+}
+#root button:hover:not(:disabled){
+  transform:translateY(-2px) translateZ(0)!important;
+  filter:brightness(1.12);
+}
+#root button:active:not(:disabled){
+  transform:translateY(0) scale(.985) translateZ(0)!important;
+}
+#root button:disabled{opacity:.52;filter:saturate(.2)}
+
+/* Cards respond with a lightweight lift instead of expensive animated filters. */
+#root [class*="shadow-xl"]{
+  transition:transform .18s cubic-bezier(.2,.8,.2,1),border-color .18s ease,background .18s ease!important;
+  will-change:transform;
+}
+#root [class*="shadow-xl"]:hover{
+  transform:translateY(-3px) translateZ(0);
+  border-color:rgba(255,255,255,.16)!important;
+}
+
+/* Progress bars: monochrome metallic */
+#root [class*="bg-green-700"],
+#root [class*="bg-blue-600"]{
+  background:linear-gradient(90deg,#737373,#e4e4e7)!important;
+  box-shadow:0 0 14px rgba(255,255,255,.10);
+}
+
+/* Entrance animation: one compositor-friendly animation. */
+#root > *{
+  animation:arQuestIn .28s cubic-bezier(.22,.8,.2,1) both;
+  transform-origin:center;
+}
+@keyframes arQuestIn{
+  from{opacity:0;transform:translateY(10px) scale(.985)}
+  to{opacity:1;transform:translateY(0) scale(1)}
+}
+
+/* Stagger only direct card children; no perpetual animation. */
+#root [class*="shadow-xl"]:nth-child(2){animation:arCardIn .24s .02s both}
+#root [class*="shadow-xl"]:nth-child(3){animation:arCardIn .24s .04s both}
+#root [class*="shadow-xl"]:nth-child(4){animation:arCardIn .24s .06s both}
+#root [class*="shadow-xl"]:nth-child(5){animation:arCardIn .24s .08s both}
+@keyframes arCardIn{
+  from{opacity:0;transform:translateY(7px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+/* Image polish without filters on every frame. */
+#root img{image-rendering:auto}
+#root img[class*="w-12"]{
+  border-radius:12px;
+  background:rgba(255,255,255,.035);
+  border:1px solid rgba(255,255,255,.08);
+  padding:3px;
+}
+
+/* Selection / focus */
+#root *:focus-visible{
+  outline:1px solid rgba(255,255,255,.38)!important;
+  outline-offset:2px;
+}
+
+/* Keep blur modest: one glass layer, not per-element heavy backdrop blur. */
+#root > div{
+  background:rgba(8,8,9,.30);
+  border:1px solid rgba(255,255,255,.08);
+  box-shadow:0 30px 90px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.035);
+  backdrop-filter:blur(10px) saturate(.82);
+  -webkit-backdrop-filter:blur(10px) saturate(.82);
+}
+
+/* Reduced motion is respected automatically. */
+@media (prefers-reduced-motion:reduce){
+  #root *,#root > *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+
+/* =========================================================
+   AR_Quest — JG-style premium graphite glass pass
+   Game world remains visible behind the NUI.
+   Performance: compositor-friendly transforms/opacity only.
+   ========================================================= */
+html,body,#root{width:100%;height:100%;min-height:100%;background:transparent!important}
+body{overflow:hidden!important}
+#root > div{position:fixed!important;inset:0!important;width:100%!important;height:100%!important;min-height:100%!important;background:rgba(0,0,0,.10)!important;border:0!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;isolation:isolate}
+#root > div > div{position:relative!important;overflow:hidden!important;background:linear-gradient(145deg,rgba(31,33,37,.88),rgba(10,11,13,.91))!important;border:1px solid rgba(255,255,255,.13)!important;border-radius:18px!important;box-shadow:0 32px 90px rgba(0,0,0,.58),0 10px 35px rgba(0,0,0,.32),inset 0 1px 0 rgba(255,255,255,.085),inset 0 -1px 0 rgba(0,0,0,.35)!important;backdrop-filter:blur(14px) saturate(.78)!important;-webkit-backdrop-filter:blur(14px) saturate(.78)!important;animation:arWindowIn .38s cubic-bezier(.16,1,.3,1) both!important}
+#root > div > div::before{content:"";position:absolute;z-index:0;inset:-35%;pointer-events:none;background:linear-gradient(115deg,transparent 38%,rgba(255,255,255,.055) 48%,transparent 58%);transform:translate3d(-35%,0,0) rotate(8deg);animation:arSheen 8s ease-in-out infinite;will-change:transform}
+#root > div > div > *{position:relative;z-index:1}
+#root > div > div > div:first-child{position:relative!important;overflow:hidden!important;min-height:64px;background:linear-gradient(135deg,rgba(57,59,64,.76),rgba(19,20,23,.76))!important;border:1px solid rgba(255,255,255,.105)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.075),0 10px 30px rgba(0,0,0,.18)!important}
+#root > div > div > div:first-child::after{content:"";position:absolute;left:8%;right:8%;bottom:0;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.26),transparent);opacity:.55}
+#root [class*="text-purple-500"]{color:#f1f1f2!important;text-shadow:0 0 24px rgba(255,255,255,.10)!important;letter-spacing:.08em}
+#root > div > div > div:nth-child(2) > div{background:rgba(15,16,18,.68)!important;border:1px solid rgba(255,255,255,.075)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.035),0 14px 35px rgba(0,0,0,.18)!important}
+#root [class*="bg-[#141332]"],#root [class*="bg-[#1D1D41]"],#root [class*="bg-[#1e1d46"],#root [class*="bg-[#2A2A4A"]{background:linear-gradient(145deg,rgba(42,44,48,.76),rgba(18,19,22,.78))!important;border-color:rgba(255,255,255,.085)!important}
+#root [class*="bg-[#6928a79c"]{background:linear-gradient(135deg,rgba(103,105,109,.72),rgba(35,36,40,.84))!important;border-right-color:#d4d4d8!important;box-shadow:inset 0 0 24px rgba(255,255,255,.035),0 8px 24px rgba(0,0,0,.18)!important}
+#root button,#root [class*="shadow-xl"]{backface-visibility:hidden;-webkit-backface-visibility:hidden}
+#root button{will-change:transform}
+#root button:hover:not(:disabled){transform:translate3d(0,-2px,0)!important}
+#root button:active:not(:disabled){transform:translate3d(0,0,0) scale(.985)!important}
+#root [class*="bg-gray-200"]{background:rgba(255,255,255,.09)!important;border:1px solid rgba(255,255,255,.055);padding:2px!important}
+#root [class*="bg-green-700"],#root [class*="bg-blue-600"]{background:linear-gradient(90deg,#66676a,#e4e4e7,#9b9ca0)!important;box-shadow:0 0 12px rgba(255,255,255,.08)!important}
+#root [class*="text-red-600"]{color:#d4d4d8!important}
+#root [class*="text-red-600"]:hover{color:#fff!important;filter:brightness(1.15)}
+#root ::-webkit-scrollbar{width:4px;height:4px}
+#root ::-webkit-scrollbar-track{background:transparent}
+#root ::-webkit-scrollbar-thumb{background:#56575b;border:0;border-radius:999px}
+#root ::-webkit-scrollbar-thumb:hover{background:#77787c}
+@keyframes arWindowIn{from{opacity:0;transform:translate3d(0,14px,0) scale(.975)}to{opacity:1;transform:translate3d(0,0,0) scale(1)}}
+@keyframes arSheen{0%,55%{transform:translate3d(-38%,0,0) rotate(8deg);opacity:0}65%{opacity:.65}82%,100%{transform:translate3d(38%,0,0) rotate(8deg);opacity:0}}
+@media (max-width:1200px){#root > div > div{backdrop-filter:blur(10px) saturate(.78)!important;-webkit-backdrop-filter:blur(10px) saturate(.78)!important}}
+@media (prefers-reduced-motion:reduce){#root > div > div,#root > div > div::before{animation:none!important}}
