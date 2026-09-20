@@ -2,7 +2,7 @@
 
 > **A modern, configurable and multilingual Quest System for FiveM**
 >
-> Built for clean gameplay, smooth NUI interactions, daily missions, configurable rewards and a polished in-game experience.
+> Built for clean gameplay, smooth NUI interactions, daily missions, configurable rewards and a polished in-game experience. using command /quest
 
 ![AR_Quest Preview 1](assets/preview-1.jpg)
 
