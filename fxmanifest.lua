@@ -1,5 +1,5 @@
 -- A Advanced Quest System Script For ESX_Legacy (ES_EXTENDED) 
--- Official Repo : https://github.com/AmirAliZzZ/AR_Quest
+-- Official Repo : https://github.com/AmiAliZzZ/AR_Quest
 -- if you need change language editing configlang.lua
 -- Redesigned
 -- if you need developer send me msg on discord my id steveplayamir
@@ -8,7 +8,7 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-author 'AmirAliZzZ'
+author 'AmiAliZzZ'
 description 'AR_Quest - Quest System'
 version '1.0.0'
 
