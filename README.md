@@ -291,7 +291,7 @@ Before installation, make sure your server environment satisfies the dependencie
 
 ## 🛠️ Developer
 
-**AmirAliJahanBakhsh**
+**AmiAliZzZ**
 
 Built with a focus on:
 
@@ -387,7 +387,7 @@ It helps the project get more visibility and motivates future updates.
 
 ## 📜 License
 
-Copyright © **AmirAliJahanBakhsh**
+Copyright © **AmiAliZzZ**
 
 Please check the repository license before redistributing or modifying the resource.
 
