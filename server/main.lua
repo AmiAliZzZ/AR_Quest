@@ -732,5 +732,5 @@ AddEventHandler('onResourceStart', function(resource)
             PRIMARY KEY (`identifier`)
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
     ]]):format(DATA_TABLE))
-    print(('[%s] Quest system loaded. /quest is available for all players. for more update check my github: https://github.com/AmiraliJahanbakhshRad/AR_Quest/'):format(RESOURCE))
+    print(('[%s] Quest system loaded. /quest is available for all players. for more update check my github: https://github.com/AmiAliZzZ/AR_Quest/'):format(RESOURCE))
 end)
